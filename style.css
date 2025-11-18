@@ -7,7 +7,7 @@
   --purple-color: #7733ff;
   --accent-color: #00adb5;
   --lite-shadows: inset 0 0 0 rgba(0, 0, 0, 0), inset 0 0 0 rgba(0, 0, 0, 0),
-    -6px -5px 5px rgba(255, 255, 255, 0.05), 6px 6px 10px rgba(0, 0, 0, 0.6);
+    -6px -6px 5px rgba(255, 255, 255, 0.05), 6px 6px 10px rgba(0, 0, 0, 0.6);
   --inner-shadows: inset -10px -10px 15px rgba(255, 255, 255, 0.05),
     inset 10px 10px 20px rgba(0, 0, 0, 0.6);
   --img-shadows: -20px -20px 50px rgba(255, 255, 255, 0.05),
@@ -87,13 +87,13 @@ body {
   min-height: 3em;
 }
 .framework {
-  border: 2.5px solid #00adb5 !important;
-  background-color: #00acb51d !important;
+  border: 2.5px solid var(--purple-color) !important;
+  background-color: #7733ff27 !important;
 }
 .Tag {
   font-size: smaller;
-  border: 1px solid var(--contrasty-color);
-  background-color: #ff56221d;
+  border: 1px solid var(--accent-color);
+  background-color: #00acb51d;
   padding: 0.5em 1em;
   border-radius: 9999px;
 }
@@ -108,8 +108,8 @@ body {
   margin-top: auto;
   top: 1em;
   text-align: center;
-  background-color: #90ee90;
-  color: black;
+  background-color: var(--purple-color);
+  color: white;
   display: inline-block;
   width: 100%;
   padding: 0.75em;
@@ -146,11 +146,17 @@ body {
   gap: 2em;
   justify-content: center;
 }
+.subheading > h3 {
+  color: white;
+}
 .subheading {
   width: 100%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.info > h3 {
+  color: white;
 }
 .info h1 {
   background: linear-gradient(
@@ -187,10 +193,10 @@ body {
   gap: 0.5em;
 }
 h3 {
-  color: var(--contrasty-color);
+  color: var(--purple-color);
 }
 .skills h4 {
-  color: var(--contrasty-color);
+  color: var(--purple-color);
   font-weight: 400;
 }
 .skills {
@@ -244,7 +250,8 @@ footer {
   gap: 10px;
 }
 footer a {
-  color: var(--accent-color); /* Highlight links */
+  color: var(--purple-color);
+  font-size: 1.25rem;
   display: flex;
   align-items: center;
   gap: 0.5em;

@@ -11,64 +11,122 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav>
+      <h4>mosab</h4>
+      <div class="button-container">
+        <a href="#About"><button class="nav-button">About Me</button></a>
+        <a href="#Education"><button class="nav-button">Education</button></a>
+        <a href="#Projects"><button class="nav-button">Projects</button></a>
+        <a href="#Experience"><button class="nav-button">Experience</button></a>
+      </div>
+    </nav>
     <div class="flex-container">
-      <section class="Personal content">
+      <section class="Personal content " >
         <div class="img"></div>
         <div class="info">
-          <h1>I'm Mosa'b Mohammad Nasrallah</h1>
+          <h1>I'm</h1>
+          <h1>Mosa'b Mohammad Nasrallah</h1>
           <h3>Software Engineer</h3>
+          <div class="buttons">
+
+            <button><div>Download CV</div> <i class="fa-solid fa-download icon"></i> </button>
+            <button><div>Open Github</div> <i class="fa-brands fa-github icon"></i></button>
+          </div>
         </div>
       </section>
 
-      <section class="row">
-        <h2 class="title">Objective</h2>
+      <section class="row" id="About">
+        <h2 class="title">About Me</h2>
         <div class="content">
           <div class="card">
+            <h3>Objective</h3>
             <p>
-              My primary objective is to leverage my comprehensive academic
-              foundation in Software Engineering—including robust skills in
-              full-stack development, efficient database management, and
-              collaborative product development—to build innovative, visually
-              stunning and intuitive digital experiences. My goal is to connect
-              theoretical knowledge with real-world problem-solving, aiming to
-              secure a role where I can continuously contribute to impactful
-              projects, grow my expertise in areas like UX design and full-stack
-              development, and evolve into a top-tier developer by tackling
-              complex problems with clean, maintainable code.
+              With a strong academic foundation in Software Engineering, I bring
+              solid experience in full-stack development, efficient database
+              management, and collaborative product development. I am driven by
+              creating innovative, intuitive, and visually compelling digital
+              experiences that solve real-world problems.
+            </p>
+            <p>
+              I aim to secure a role where I can continue expanding my expertise
+              in UX design and full-stack development. My long-term goal is to
+              evolve into a top-tier developer by contributing to impactful
+              projects and consistently writing clean, maintainable, and
+              scalable code.
             </p>
           </div>
-          <div class="skills card">
-            <div class="categories">
-              <h4>Frameworks</h4>
-              <span>React</span>
-              <span>ASP.NET</span>
-            </div>
 
-            <div class="categories">
-              <h4>Programming Languages</h4>
-              <span>C#</span>
-              <span>HTML&CSS</span>
-              <span>Java</span>
-              <span>Javascript</span>
-            </div>
+          <div class="card">
+            <h3>Skills</h3>
+            <div class="skills">
+              <div class="categories">
+                <h4><i class="fa-brands fa-react"></i> Frameworks</h4>
+                <span>React</span>
+                <span>ASP.NET</span>
+              </div>
 
-            <div class="categories">
-              <h4>Database</h4>
-              <span>SQL Server</span>
-              <span>Oracle SQL</span>
-            </div>
+              <div class="categories">
+                <h4><i class="fa-solid fa-code"></i> Programming Languages</h4>
+                <span>HTML&CSS</span>
+                <span>Java</span>
+                <span>Javascript</span>
+              </div>
 
-            <div class="categories">
-              <h4>Tools and Version Control</h4>
-              <span>Figma</span>
-              <span>Git & Github</span>
-              <span>Mendix</span>
+              <div class="categories">
+                <h4><i class="fa-solid fa-database"></i> Database</h4>
+                <span>SQL Server</span>
+                <span>Oracle SQL</span>
+              </div>
+
+              <div class="categories">
+                <h4>
+                  <i class="fa-solid fa-screwdriver-wrench"></i> Tools and
+                  Version Control
+                </h4>
+                <span>Figma</span>
+                <span>Git & Github</span>
+                <span>Mendix</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Skills</h3>
+            <div class="skills">
+              <div class="categories">
+                <h4><i class="fa-brands fa-react"></i> Frameworks</h4>
+                <span>React</span>
+                <span>ASP.NET</span>
+              </div>
+
+              <div class="categories">
+                <h4><i class="fa-solid fa-code"></i> Programming Languages</h4>
+                <span>C#</span>
+                <span>HTML&CSS</span>
+                <span>Java</span>
+                <span>Javascript</span>
+              </div>
+
+              <div class="categories">
+                <h4><i class="fa-solid fa-database"></i> Database</h4>
+                <span>SQL Server</span>
+                <span>Oracle SQL</span>
+              </div>
+
+              <div class="categories">
+                <h4>
+                  <i class="fa-solid fa-screwdriver-wrench"></i> Tools and
+                  Version Control
+                </h4>
+                <span>Figma</span>
+                <span>Git & Github</span>
+                <span>Mendix</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="Education row">
+      <section class="Education row" id="Education">
         <h2 class="title">Education</h2>
         <div class="content">
           <div class="card">
@@ -78,50 +136,50 @@
               Applying engineering principles to design, develop, and maintain
               reliable, efficient, and scalable software systems.
             </p>
+            GPA:
             <ul>
-              <li>GPA: 3.48/4.00</li>
+              <li>3.48/4.00</li>
             </ul>
           </div>
           <div class="card">
-            <h3>Full-stack Training</h3>
+            <h3>Full-stack Web Development Training</h3>
             <h5><i>Orange Coding School | Oct 2025 - Present</i></h5>
             <p>
               Intensive, project-based and active learning curriculum covering
               modern front-end and back-end development principles.
             </p>
-            <dl>
-              <dt>Focus On:</dt>
-              <!-- #TODO: Make them display inline <dd style="display: inline">UI/UX</dd> ... -->
-              <dd>UI/UX, Responsive Design, Teamwork</dd>
 
-              <dt>Tools:</dt>
-              <!-- #TODO: Make them display inline <dd style="display: inline">Git & Github</dd> ... -->
-              <dd>Git & Github, HTML&CSS with bootstrap, JS, PHP/Laravel</dd>
-            </dl>
+            Focus On:
+            <!-- #TODO: Make them display inline <dd style="display: inline">UI/UX</dd> ... -->
+            <ul>
+              <li>UI/UX, Responsive Design, Teamwork</li>
+            </ul>
           </div>
         </div>
       </section>
 
-      <section class="Projects row">
+      <section class="Projects row slider-wrapper" id="Projects">
         <h2 class="title">Projects</h2>
-        <div class="content">
-          <div class="card">
+        <!-- <div class="content"> -->
+        <div class="slider">
+          <div class="card" id="slide-1">
             <h3>To-Do Website</h3>
             <div class="tags-container">
               <span class="Tag framework">React.JS</span>
               <span class="Tag">Front-End</span>
             </div>
             <p class="description">
-              A foundational To-Do List application built with React.js. This
-              project serves as a clear demonstration of core React concepts,
-              including component lifecycle, efficient state management.
+              A foundational To-Do List application built using core React.js.
+              Serves as a clear demonstration of component hierarchy, CRUD
+              operations, and efficient, centralized state management.
+              Highlights essential React principles and clean component design.
             </p>
-            <a
+            <a target="_blank" rel="noopener noreferrer"
               href="https://github.com/mosab-nasrallah/react-projects/tree/main/src/components/project2"
-              >Open In github</a
+              >Open In Github</a
             >
           </div>
-          <div class="card">
+          <div class="card" id="slide-2">
             <h3>Cooking Recipes website</h3>
             <div class="tags-container">
               <span class="Tag framework">React.JS</span>
@@ -129,59 +187,64 @@
               <span class="Tag">API</span>
             </div>
             <p class="description">
-              A responsive Cooking Recipes web application built using React.js.
-              It dynamically fetches culinary data from the MealDB API, allowing
-              users to browse and view detailed instructions and ingredients for
-              thousands of recipes. This project demonstrates strong front-end
-              state management and efficient asynchronous data fetching.
+              A highly responsive Cooking Recipes application developed using
+              modern React.js. It fetches data from the MealDB API, allowing
+              users to browse thousands of recipes. Demonstrates strong
+              front-end state management and efficient handling of asynchronous
+              data fetching.
             </p>
-            <a
+            <a target="_blank" rel="noopener noreferrer"
               href="https://github.com/mosab-nasrallah/react-projects/tree/main/src/components/project3"
-              >Open In github</a
+              >Open In Github</a
             >
           </div>
-          <div class="card">
+          <div class="card" id="slide-3">
             <h3>Venue Hub</h3>
             <div class="tags-container">
               <span class="Tag framework">ASP.NET</span>
-              <span class="Tag">Front-End</span>
-              <span class="Tag">Back-End</span>
+              <span class="Tag">Full Stack</span>
               <span class="Tag">SQL Server</span>
             </div>
             <p class="description">
-              A comprehensive Venue Reservation System (Venue Hub) developed as
-              a graduation project using ASP.NET. This solution facilitates the
-              booking of diverse spaces—including wedding halls, party venues,
-              and meeting rooms—featuring real-time availability checking,
-              secure authentication, and a streamlined interface for both
-              administrators and customers.
+              A professional Venue Reservation System (Venue Hub) built with
+              ASP.NET. Features real-time availability, secure dual
+              authentication (admin/customer), and streamlined booking for
+              diverse spaces. Focuses on robust full-stack enterprise
+              development and secure data management.
             </p>
-            <a href="https://github.com/mosab-nasrallah/Graduation_Project.git"
-              >Open In github</a
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/mosab-nasrallah/Graduation_Project.git"
+              >Open In Github</a
             >
           </div>
-          <div class="card">
+          <div class="card" id="slide-4">
             <h3>Petopia</h3>
             <div class="tags-container">
               <span class="Tag framework">UI/UX</span>
               <span class="Tag">Figma</span>
             </div>
             <p class="description">
-              A Figma-based UI/UX project designing the front-end shopping
-              experience for 'Petopia.' Focus was placed on creating
-              accessibility, clear product presentation, and an engaging visual
-              style suitable for a modern e-commerce brand.
+              A Figma-based UI/UX project designing the e-commerce experience
+              for 'Petopia.' Focus was placed on creating an engaging visual
+              style and rigorous adherence to accessibility guidelines (WCAG).
+              Includes high-fidelity prototypes and a comprehensive design
+              system.
             </p>
           </div>
         </div>
-      </section>
+        <div class="slider-nav">
+          <a href="#slide-1""></a>
+          <a href="#slide-2""></a>
+          <a href="#slide-3""></a>
+          <a href="#slide-4""></a>
+        </div>
+ </section>
 
-      <section class="Experience row">
+      <section class="Experience row" id="Experience">
         <h2 class="title">Experience</h2>
-        <div class="subheading">
+        <!-- <div class="subheading">
           <h3>0+ Years of experience!</h3>
           <h3>0+ Customer Satisfied</h3>
-        </div>
+        </div> -->
         <div class="content">
           <div class="card">
             <h3>Company A</h3>
@@ -220,16 +283,16 @@
     </div>
 
     <footer class="row">
-      <a href="https://www.linkedin.com/in/mosab-nasrallah/"
+      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mosab-nasrallah/"
         ><i class="fa-brands fa-linkedin"></i>Mosa'b Nasrallah</a
       >
-      <a href="https://github.com/mosab-nasrallah"
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/mosab-nasrallah"
         ><i class="fa-brands fa-github"></i>mosab-nasrallah</a
       >
-      <a href="mailto:mosabnasrallah@gmail.com"
+      <a target="_blank" rel="noopener noreferrer" href="mailto:mosabnasrallah@gmail.com"
         ><i class="fa-regular fa-envelope"></i>mosabnasrallah@gmail.com
       </a>
-      <a href=""><i class="fa-solid fa-phone"></i> 0782692905</a>
+      <a target="_blank" rel="noopener noreferrer" href=""><i class="fa-solid fa-phone"></i> 0782692905</a>
     </footer>
   </body>
 </html>

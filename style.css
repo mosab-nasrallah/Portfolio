@@ -106,8 +106,9 @@ dd {
 .img {
   transition: 200ms;
   text-align: center;
+  background: linear-gradient(45deg, black, white);
   border-radius: 50%;
-  background-image: url("images/Me.jpg");
+  background-image: url("images/Me.png");
   background-size: contain;
   background-repeat: no-repeat;
   aspect-ratio: 1 / 1;

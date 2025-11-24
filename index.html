@@ -12,8 +12,13 @@
   </head>
   <body>
     <nav>
-      <h4>mosab</h4>
+      <h4><a href="#Hero"> Mosa'b Nasrallah</a></h4>
       <div class="button-container">
+        <a href=""
+          ><button class="nav-button expanding">
+            <i class="fa-solid fa-bars"></i> <span> Expand</span>
+          </button>
+        </a>
         <a href="#About"><button class="nav-button">About Me</button></a>
         <a href="#Education"><button class="nav-button">Education</button></a>
         <a href="#Projects"><button class="nav-button">Projects</button></a>
@@ -21,23 +26,106 @@
       </div>
     </nav>
     <div class="flex-container">
-      <section class="Personal content">
+      <section class="Personal content" id="Hero">
         <div class="img"></div>
         <div class="info">
           <h1>I'm</h1>
           <h1>Mosa'b Mohammad Nasrallah</h1>
           <h3>Software Engineer</h3>
           <div class="buttons">
-            <button>
+            <a
+              class="button"
+              href="Mosab_Nasrallah_CV.pdf"
+              download="Mosab_Nasrallah_CV.pdf"
+            >
+              <!-- <button> -->
               <div>Download CV</div>
               <i class="fa-solid fa-download icon"></i>
-            </button>
-            <button>
-              <div>
-                <a href="https://github.com/mosab-nasrallah"> Open Github</a>
-              </div>
+              <!-- </button> -->
+            </a>
+            <!-- <button> -->
+            <a
+              rel="noopener noreferrer"
+              class="button"
+              target="_blank"
+              href="https://github.com/mosab-nasrallah"
+            >
+              <div>Open Github</div>
               <i class="fa-brands fa-github icon"></i>
-            </button>
+            </a>
+            <!-- </button> -->
+          </div>
+          <div class="scroller">
+            <ul class="skills-group">
+              <li class="card skill">
+                <img src="images/logos/css.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/figma.webp" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/git.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/GitHub.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/html.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/java.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/js.jpg" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/Mendix.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/React.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/microsoft-sql-server.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/oracle-database.png" alt="" />
+              </li>
+            </ul>
+            <ul aria-hidden class="skills-group">
+              <li class="card skill">
+                <img src="images/logos/css.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/figma.webp" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/git.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/GitHub.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/html.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/java.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/js.jpg" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/Mendix.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/React.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/microsoft-sql-server.png" alt="" />
+              </li>
+              <li class="card skill">
+                <img src="images/logos/oracle-database.png" alt="" />
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -45,7 +133,7 @@
       <section class="row" id="About">
         <h2 class="title">About Me</h2>
         <div class="content">
-          <div class="card">
+          <div class="objective card">
             <h3>Objective</h3>
             <p>
               With a strong academic foundation in Software Engineering, I bring
@@ -63,7 +151,7 @@
             </p>
           </div>
 
-          <div class="card">
+          <!-- <div class="card">
             <h3>Technical Skills</h3>
             <div class="skills">
               <div class="categories">
@@ -95,7 +183,7 @@
                 <span>Mendix</span>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="card">
             <h3>Soft Skills</h3>
             <div class="skills">
@@ -248,10 +336,7 @@
 
       <section class="Experience row" id="Experience">
         <h2 class="title">Experience</h2>
-        <!-- <div class="subheading">
-          <h3>0+ Years of experience!</h3>
-          <h3>0+ Customer Satisfied</h3>
-        </div> -->
+
         <div class="content">
           <div class="card">
             <h3>Company A</h3>
